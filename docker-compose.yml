@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  lampalampapartner:
+    image: ${DOCKER_REGISTRY-}lampalampapartner
+    build:
+      context: .
+      dockerfile: LampaLampaPartner/Dockerfile
